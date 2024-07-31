@@ -1,0 +1,39 @@
+{
+  "Name":"Homey",
+  "Version":"0.0.0.0",
+  "Sensors":
+  [
+    {
+      "Name":"DoorServo",
+      "CurrentState":"locked"
+    },
+    {
+      "Name":"LedLamp",
+      "Number":2,
+      "CurrentState":
+      [
+        false,
+        false
+      ]
+    }
+  ],
+  "HomeUsers":
+  [
+    "Лягушка",
+    "Ivan Pinchukov"
+  ],
+  "NLPSettings":
+  {
+    "EngineName":"text-davinci-002",
+    "PromptStream":"process.env.PROMPT",
+    "Temperature":0.75
+  },
+  "SpeechSettings":
+  {
+    "LastAudioFileID":1,
+    "Encoding":"LINEAR16",
+    "SampleRateHerz":16000,
+    "LanguageCode":"ru_RU",
+    "InterimResults":false
+  }
+}
